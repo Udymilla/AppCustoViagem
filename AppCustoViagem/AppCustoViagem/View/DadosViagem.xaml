@@ -4,7 +4,7 @@
              x:Class="AppCustoViagem.View.DadosViagem"
              Title="Dados Da Viagem">
     
-    // itens que ficarão acima
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Pedágios" Clicked="ToolbarItem_Clicked" />
         <ToolbarItem Text="Somar" Clicked="ToolbarItem_Clicked_1"/>
