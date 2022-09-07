@@ -17,7 +17,7 @@
                 <Grid RowDefinitions="*, *, *, *" ColumnDefinitions="Auto, *">
                     <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="Viagem:" />
 
-                    <Label Grid.Column="0" Grid.Row="1" Text="Origem:" />
+                    <Label Grid.Column="0" Grid.Row="1" Text="Origem" />
                     <Entry Grid.Column="1" Grid.Row="1" x:Name="txt_origem" />
 
                     <Label Grid.Column="0" Grid.Row="2" Text="Destino:" />
