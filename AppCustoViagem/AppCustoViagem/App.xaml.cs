@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AppCustoViagem.View;
+using System;
+using System.Globalization;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +12,9 @@ namespace AppCustoViagem
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            
+
+            MainPage = new NavigationPage(new DadosViagem());
         }
 
         protected override void OnStart()
