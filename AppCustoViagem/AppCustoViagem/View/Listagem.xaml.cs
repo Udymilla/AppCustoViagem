@@ -51,4 +51,4 @@ namespace AppCustoViagem.View
                 lst_pedagios.ItemsSource = App.ListaPedagios;
             }
         }
-}
+    }

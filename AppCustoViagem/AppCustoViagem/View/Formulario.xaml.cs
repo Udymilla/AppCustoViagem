@@ -42,5 +42,5 @@ namespace AppCustoViagem.View
             catch (Exception ex)
             { await DisplayAlert("Ops", ex.Message, "OK"); }
         }
-    }
 
+    }
