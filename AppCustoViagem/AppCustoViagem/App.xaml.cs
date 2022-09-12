@@ -1,18 +1,21 @@
-﻿using AppCustoViagem.View;
-using System;
-using System.Globalization;
+﻿using AppCustoViagem.Model;
+using AppCustoViagem.View;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+
+using System.Globalization;
+using System.Threading;
+using System.Collections.ObjectModel;
 
 namespace AppCustoViagem
 {
     public partial class App : Application
     {
+        public static ObservableCollection<Pedagio> ListaPedagios = new ObservableCollection<Pedagio>();
         public App()
         {
             InitializeComponent();
 
-            
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
 
             MainPage = new NavigationPage(new DadosViagem());
         }
