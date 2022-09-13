@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCustoViagem.View.DadosViagem"
              Title="Dados Da Viagem"
-             BackgroundImage = "inicial.jpeg"
-             >
+             BackgroundImage = "inicial.jpeg">
     
 
     <ContentPage.ToolbarItems>
@@ -14,7 +13,7 @@
 
     <ContentPage.Content>
 
-        <StackLayout>
+        <StackLayout Margin="50,70,50,100">
             <Frame Margin="5" HasShadow="True" CornerRadius="10">
                 <Grid RowDefinitions="*, *, *, *" ColumnDefinitions="Auto, *">
                     <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="Viagem:" />
